@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >    
+    
+   <RadioGroup 
+        android:id="@+id/radiogroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/navbar_background"
+        android:orientation="horizontal" >
+        
+       <Button
+	        android:id="@+id/layout_menu_btn_route"
+	        style="@style/layout_menu_btn"
+	        android:text="@string/layout_menu_btn_route"
+	        android:background="@drawable/layout_menu_btn_red"
+	        android:drawableTop="@drawable/layout_menu_btn_route" >
+	    </Button>
+    
+       <Button
+		    android:id="@+id/layout_menu_btn_qrcode"
+		    style="@style/layout_menu_btn"
+		    android:text="@string/layout_menu_btn_qrcode"
+		    android:background="@drawable/layout_menu_btn_red"
+		    android:drawableTop="@drawable/layout_menu_btn_qrcode" >
+		</Button>
+    
+	    <Button
+		    android:id="@+id/layout_menu_btn_garage"
+	        style="@style/layout_menu_btn"
+	        android:text="@string/layout_menu_btn_garage"
+	        android:background="@drawable/layout_menu_btn_red"
+	        android:drawableTop="@drawable/layout_menu_btn_garage" >
+	    </Button>
+    
+	    <Button
+		    android:id="@+id/layout_menu_btn_carlist"
+	        style="@style/layout_menu_btn"
+	        android:text="@string/layout_menu_btn_carlist"
+	        android:background="@drawable/layout_menu_btn_red"
+	        android:drawableTop="@drawable/layout_menu_btn_carlist" >
+	    </Button>
+
+	    <Button
+	        android:id="@+id/layout_menu_btn_bonus"
+	        style="@style/layout_menu_btn"
+	        android:text="@string/layout_menu_btn_bonus"
+	        android:background="@drawable/layout_menu_btn_red"
+	        android:drawableTop="@drawable/layout_menu_btn_bonus" >
+	    </Button>
+    
+    </RadioGroup> 
+    
+</RelativeLayout>

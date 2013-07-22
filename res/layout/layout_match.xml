@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	<TextView
+	    android:id="@+id/textDrop1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:gravity="center_horizontal|center_vertical"
+	    android:background="#660000"
+	    android:text="Domanda 1"
+	    android:textColor="#ffffff"
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	<TextView
+	    android:id="@+id/textDrop2"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:background="#660000"
+	    android:gravity="center_horizontal|center_vertical"
+	    android:text="Domanda 2"
+	    android:textColor="#ffffff"
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	<TextView
+	    android:id="@+id/textDrop3"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:background="#660000"
+	    android:gravity="center_horizontal|center_vertical"
+	    android:text="Domanda 3"
+	    android:textColor="#ffffff" 
+		android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	<TextView
+	    android:id="@+id/textDrop4"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:background="#660000"
+	    android:gravity="center_horizontal|center_vertical"
+	    android:text="Domanda 4"
+	    android:textColor="#ffffff" 
+		android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	<TextView
+	    android:id="@+id/textHold1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:background="#404040"
+	    android:gravity="center_horizontal|center_vertical"
+	    android:text="Risposta 1"
+	    android:textColor="#ffffff" 
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	<TextView
+	    android:id="@+id/textHold2"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:background="#404040"
+	    android:gravity="center_horizontal|center_vertical"
+	    android:text="Risposta 2"
+	    android:textColor="#ffffff" 
+		android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	<TextView
+	    android:id="@+id/textHold3"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:background="#404040"
+	    android:gravity="center_horizontal|center_vertical"
+	    android:text="Risposta 3"
+	    android:textColor="#ffffff" 
+		android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	<TextView
+	    android:id="@+id/textHold4"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:background="#404040"
+	    android:gravity="center_horizontal|center_vertical"
+	    android:text="Risposta 4"
+	    android:textColor="#ffffff"
+		android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<ImageView
+	    android:id="@+id/arrow"
+	    android:layout_width="35dp"
+	    android:layout_height="35dp"
+	    android:layout_centerHorizontal="true"
+	    android:gravity="center_horizontal|center_vertical"
+	    android:src="@drawable/game_race_quiz_arrow" />
+    
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCCCCC" >   
+    
+    <RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="190dp"
+	    android:id="@+id/layout_garage_workshop" >
+
+        <ImageView
+            android:id="@+id/layout_garage_img_mycustomcar"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/layout_garage_img_mycar" />
+        
+        <ImageView
+	        android:id="@+id/layout_garage_img_gate"
+	        android:layout_width="match_parent"
+	        android:layout_height="45dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:src="@drawable/layout_garage_img_gate" />
+        
+    </RelativeLayout>
+    
+    <TextView
+        android:id="@+id/layout_garage_txt_indexparam"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/layout_garage_workshop"
+        android:background="#111111"
+        android:paddingLeft="10dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:textSize="18sp"
+        android:text="Parametri auto"
+        android:textColor="#FFFFFF" />
+    
+    <ScrollView 
+	    android:id="@+id/layout_garage_scroll_params"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="#333333"
+	    android:layout_below="@+id/layout_garage_txt_indexparam" >
+    
+	    <LinearLayout
+	        android:id="@+id/layout_garage_list_params"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="vertical" >
+	        
+		</LinearLayout>
+		
+	</ScrollView>
+	    
+</RelativeLayout>

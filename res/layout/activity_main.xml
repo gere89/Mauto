@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/buttons_menu_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/top_buttons_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+            
+            <ImageButton
+                android:id="@+id/layout_route_btn_race"
+                android:src="@drawable/layout_route_btn_race"
+                android:scaleType="fitCenter"
+                style="@style/layout_route_btn"
+                android:background="@drawable/layout_route_btn_red"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp" />
+
+            <ImageButton
+                android:id="@+id/layout_route_btn_tech"
+                android:src="@drawable/layout_route_btn_tech"
+                android:scaleType="fitCenter"
+                style="@style/layout_route_btn"
+                android:background="@drawable/layout_route_btn_blu"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom_buttons_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/layout_route_btn_fams"
+                android:src="@drawable/layout_route_btn_famous"
+                android:scaleType="fitCenter"
+                style="@style/layout_route_btn"
+                android:background="@drawable/layout_route_btn_yellow"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp" />
+
+            <ImageButton
+                android:id="@+id/layout_route_btn_hist"
+                android:src="@drawable/layout_route_btn_history"
+                android:scaleType="fitCenter"
+                style="@style/layout_route_btn"
+                android:background="@drawable/layout_route_btn_green"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

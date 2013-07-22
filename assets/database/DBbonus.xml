@@ -1,0 +1,118 @@
+﻿<?xml version="1.0"?>
+
+<mauto>
+    <bonus>
+	    <id>bonus1</id>
+        <place>Lingotto</place>
+        <address>Via Nizza 294 10126 Torino (TO)</address>
+        <description>Il Lingotto è la prima fabbrica della FIAT in Italia. aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</description>
+        <lat>45.030317</lat>
+        <lon>7.664359</lon>
+        <lat1>45.039294</lat1>
+        <lon1>7.662063</lon1>
+        <lat2>45.037929</lat2>
+        <lon2>7.672191</lon2>
+        <lat3>45.030165</lat3>
+        <lon3>7.654931</lon3>
+        <lat4>45.026647</lat4>
+        <lon4>7.666826</lon4>
+        <path>lingotto</path>
+        <partID>nitro_extra</partID>
+    </bonus> 
+    
+    <bonus>
+	    <id>bonus2</id>
+        <place>Stabilimento Maserati</place>
+        <address>Corso Allamano Grugliasco (TO)</address>
+        <description>Ex stabilimento Bertone, ora prima fabbrica Maserati a Torino.</description>
+        <lat>45.051559</lat>
+        <lon>7.593559</lon>
+        <lat1>45.054879</lat1>
+        <lon1>7.582583</lon1>
+        <lat2>45.054697</lat2>
+        <lon2>7.60314</lon2>
+        <lat3>45.047481</lat3>
+        <lon3>7.579751</lon3>
+        <lat4>45.044419</lat4>
+        <lon4>7.599578</lon4>
+        <path>maserati</path>
+         <partID>freno_extra</partID>
+    </bonus>  
+    
+     <bonus>
+	    <id>bonus3</id>
+        <place>FIAT Mirafiori</place>
+        <address>Corso Agnelli 200 Torino (TO)</address>
+        <description>Attuale fabbrica FIAT a Torino.</description>
+        <lat>45.026708</lat>
+        <lon>7.636893</lon>
+        <lat1>45.034502</lat1>
+        <lon1>7.628117</lon1>
+        <lat2>45.030317</lat2>
+        <lon2>7.643867</lon2>
+        <lat3>45.026041</lat3>
+        <lon3>7.626057</lon3>
+        <lat4>45.022765</lat4>
+        <lon4>7.63567</lon4>
+        <path>mirafiori</path>
+        <partID>sesta_extra</partID>
+    </bonus>  
+    
+    <bonus>
+	    <id>bonus4</id>
+        <place>Stabilimento FIAT Mirafiori</place>
+        <address>Corso Agnelli 200 Torino (TO)</address>
+        <description>Attuale fabbrica FIAT a Torino.</description>
+        <lat>45.026708</lat>
+        <lon>7.636893</lon>
+        <lat1>45.02968</lat1>
+        <lon1>7.634768</lon1>
+        <lat2>45.028983</lat2>
+        <lon2>7.640777</lon2>
+        <lat3>45.024463</lat3>
+        <lon3>7.631636</lon3>
+        <lat4>45.022825</lat4>
+        <lon4>7.635455</lon4>
+        <path>mirafiori</path>
+        <partID>mescola_extra</partID>
+    </bonus>  
+    
+        
+    <bonus>
+	    <id>bonus5</id>
+        <place>Ex Stabilimento Lancia</place>
+        <address>Via Ormea 89 10126 Torino (TO)</address>
+        <description>Prima fabbri Lancia in Italia, nata nel 1906.</description>
+        <lat>45.049596</lat>
+        <lon>7.678607</lon>
+        <lat1>45.050604</lat1>
+        <lon1>7.677877</lon1>
+        <lat2>45.050074</lat2>
+        <lon2>7.680194</lon2>
+        <lat3>45.0488</lat3>
+        <lon3>7.676611</lon3>
+        <lat4>45.048148</lat4>
+        <lon4>7.679508</lon4>
+        <path>lancia</path>
+        <partID>cv_extra</partID>
+    </bonus> 
+    
+    <bonus>
+	    <id>bonus6</id>
+        <place>Mirafiori Motor Village</place>
+        <address>Piazza Cattaneo 9, 10137 Torino (TO)</address>
+        <description>Concessionario Fiat più grande d'Europa.</description>
+        <lat>45.034305</lat>
+        <lon>7.624673</lon>
+        <lat1>45.036307</lat1>
+        <lon1>7.621915</lon1>
+        <lat2>45.034806</lat2>
+        <lon2>7.627816</lon2>
+        <lat3>45.03426</lat3>
+        <lon3>7.621379</lon3>
+        <lat4>45.033153</lat4>
+        <lon4>7.626765</lon4>
+        <path>motor_village</path>
+        <partID>sospensioni_extra</partID>
+    </bonus> 
+</mauto>

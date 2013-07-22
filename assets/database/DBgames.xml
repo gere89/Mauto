@@ -1,0 +1,43 @@
+﻿<?xml version="1.0"?>
+
+<mauto>
+	<gioco category="Gare e sfide">
+	    <carID>race1</carID>
+	    <gameID>quiz1</gameID>
+	    <nome>Chi vuol essere milionario</nome>
+	    <tipo>Quiz</tipo>
+	</gioco>
+	
+	<gioco category="Gare e sfide">
+	    <carID>race3</carID>
+	    <gameID>match1</gameID>
+	    <nome>La sgommata sulla pista</nome>
+	    <tipo>Match</tipo>
+	</gioco>
+	
+	<gioco category="Tecnologia e design">
+	    <carID>tech2</carID>
+	    <gameID>plug1</gameID>
+	    <nome>Collega la presa</nome>
+	    <tipo>PowerPlug</tipo>
+	</gioco>
+	
+	<quiz gameID="quiz1">
+	    <domanda>Chi è il regista del Cavaliere Oscuro</domanda>
+	    <risposta corretta="false">Rob Zomby</risposta>
+	    <risposta corretta="false">Clint Eastwood</risposta>
+	    <risposta corretta="true">Cristopher Nolan</risposta>
+	    <risposta corretta="false">Stephen Spielberg</risposta>
+	</quiz>
+	
+	<match gameID="match1">
+	    <drop id="1">FIAT</drop>
+	    <drop id="2">Alfa Romeo</drop>
+	    <drop id="3">Mercedes</drop>
+	    <drop id="4">Renault</drop>
+	    <hold id="1">Punto</hold>
+		<hold id="2">Giulietta</hold>
+		<hold id="3">SLK</hold>
+		<hold id="4">Clio</hold>
+	</match>
+</mauto>

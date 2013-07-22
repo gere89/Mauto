@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   <Button
+        android:id="@+id/btn_maps_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+        android:text="CHECK POSITION" />
+    
+    
+    <Button
+        android:id="@+id/btn_maps_navigator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Portami Qui!" />
+
+     
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+		android:layout_below="@+id/btn_maps_check" 
+        android:layout_above="@+id/btn_maps_navigator" >
+
+     <TextView
+         android:id="@+id/txt_title"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="14dp"
+         android:text="TITOLO"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textSize="30dp" />
+
+     <TextView
+         android:id="@+id/txt_description"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/txt_address"
+         android:layout_below="@+id/txt_address"
+         android:layout_marginTop="46dp"
+         android:text="Descrizione"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     <TextView
+         android:id="@+id/txt_address"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/txt_title"
+         android:layout_marginRight="19dp"
+         android:layout_marginTop="27dp"
+         android:layout_toLeftOf="@+id/txt_title"
+         android:text="Indirizzo"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+     
+     </RelativeLayout>
+
+</RelativeLayout>

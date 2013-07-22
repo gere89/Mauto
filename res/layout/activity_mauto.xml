@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/buttons_menu_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/top_buttons_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/layout_mauto_btn_nelmuseo"
+                android:src="@drawable/layout_mauto_btn_nelmuseo"
+                android:scaleType="fitCenter"
+                style="@style/layout_route_btn"
+                android:background="@drawable/layout_mauto_btn_background"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp" />
+
+            <ImageButton
+                android:id="@+id/layout_mauto_btn_garage"
+                android:src="@drawable/layout_mauto_btn_garage"
+                android:scaleType="fitCenter"
+                style="@style/layout_route_btn"
+                android:background="@drawable/layout_mauto_btn_background"
+                android:layout_marginBottom="5dp" />
+                
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom_buttons_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/layout_mauto_btn_collezione"
+                android:src="@drawable/layout_mauto_btn_collezione"
+                android:scaleType="fitCenter"
+                style="@style/layout_route_btn"
+                android:background="@drawable/layout_mauto_btn_background"
+                android:layout_marginRight="5dp" />
+
+            <ImageButton
+                android:id="@+id/layout_mauto_btn_bonus"
+                android:src="@drawable/layout_mauto_btn_bonus"
+                android:scaleType="fitCenter"
+                style="@style/layout_route_btn"
+                android:background="@drawable/layout_mauto_btn_background" />
+            
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <!--  Stile delle pagine singole -->
+    <style name="MainLayout">
+        <item name="android:background">#333333</item>
+    </style>
+    
+    <!--  Stile dello sfondo delle pagine -->
+    <style name="BackgroundLayout">
+        <item name="android:background">#cccccc</item>
+    </style>
+    
+    <!-- Stile dei bottoni della scelta percorso -->
+	<style name="layout_route_btn">
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">fill_parent</item>
+    	<item name="android:layout_weight">1</item>
+    	<item name="android:textColor">#ffffff</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:layout_margin">3dp</item>
+    	<item name="android:textSize">20dp</item>
+    	<item name="android:shadowColor">#000000</item>
+    	<item name="android:shadowDx">1</item>
+    	<item name="android:shadowDy">1</item>
+    	<item name="android:shadowRadius">2</item>
+    	<item name="android:paddingLeft">15dp</item>
+    	<item name="android:paddingRight">15dp</item>
+	</style>
+	
+	<!-- Stile dei bottoni del menu -->
+	<style name="layout_menu_btn">
+		<item name="android:layout_width">fill_parent</item> 
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:gravity">center</item> 
+		<item name="android:layout_weight">1</item> 
+		<item name="android:textSize">14dp</item>
+		<item name="android:textColor">#FFFF</item>
+		<item name="android:layout_marginRight">0dp</item>
+		<item name="android:layout_marginTop">0dp</item>
+		<item name="android:layout_marginBottom">0dp</item>
+		<item name="android:layout_marginLeft">0dp</item>
+		<item name="android:paddingRight">2dp</item>
+		<item name="android:paddingLeft">2dp</item>
+		<item name="android:paddingTop">2dp</item>
+		<item name="android:paddingBottom">2dp</item>			
+  	</style>
+
+</resources>

@@ -1,0 +1,389 @@
+﻿<?xml version="1.0"?>
+
+<mauto>
+	<part>
+		<category>Pneumatici</category>
+		<partID>wheel_1</partID>
+		<name>Pneumatico 1</name>
+		<path>Pneumatici.png</path>
+		<param>
+			<name>Tenuta</name>
+			<value>3</value>
+		</param>
+	</part>
+	
+	<part>
+		<category>Pneumatici</category>
+	    <partID>wheel_2</partID>
+	    <name>Pneumatico 2</name>
+	    <path>Pneumatici.png</path>
+	    <param>
+	        <name>Tenuta</name>
+	        <value>2</value>
+	    </param>
+	    <param>
+			<name>Velocita massima</name>
+		<value>2</value>
+		</param>
+	</part>
+	
+	<part>
+		<category>Pneumatici</category>
+	    <partID>wheel</partID>
+	    <name>Pneumatico 3</name>
+	    <path>Pneumatici.png</path>
+	    <param>
+	        <name>Tenuta</name>
+	        <value>4</value>
+	    </param>
+	</part>
+
+	<part>
+		<category>Motore</category>
+	    <partID>engine_1</partID>
+	    <name>Motore 1</name>
+	    <path>Motore.png</path>
+		<param>
+	        <name>Potenza</name>
+	        <value>2</value>
+	    </param>
+	    <param>
+	        <name>Accelerazione</name>
+	        <value>1</value>
+	    </param>
+	</part>
+	
+	<part>
+		<category>Motore</category>
+	    <partID>engine_2</partID>
+	    <name>Motore 2</name>
+	    <path>Motore.png</path>
+		<param>
+	        <name>Potenza</name>
+	        <value>1</value>
+	    </param>
+	    <param>
+	        <name>Accelerazione</name>
+	        <value>1</value>
+	    </param>
+		<param>
+			<name>Velocita massima</name>
+			<value>2</value>
+		</param>
+	</part>
+	
+	<part>
+		<category>Motore</category>
+	    <partID>engine_3</partID>
+	    <name>Motore 3</name>
+	    <path>Motore.png</path>
+		<param>
+	        <name>Potenza</name>
+	        <value>2</value>
+	    </param>
+	    <param>
+	        <name>Accelerazione</name>
+	        <value>2</value>
+	    </param>
+		<param>
+			<name>Velocita massima</name>
+			<value>2</value>
+		</param>
+	</part>
+	
+	<part>
+		<category>Freni</category>
+	    <partID>brake_1</partID>
+	    <name>Freni 1</name>
+	    <path>Freni.png</path>
+		<param>
+	        <name>Frenata</name>
+	        <value>2</value>
+	    </param>
+	    <param>
+	        <name>Tenuta</name>
+	        <value>1</value>
+	    </param>
+	</part>
+	
+	<part>
+		<category>Freni</category>
+	    <partID>brake_2</partID>
+	    <name>Freni 2</name>
+	    <path>Freni.png</path>
+		<param>
+	        <name>Frenata</name>
+	        <value>2</value>
+	    </param>
+	    <param>
+	        <name>Tenuta</name>
+	        <value>2</value>
+	    </param>
+	</part>
+	
+	<part>
+		<category>Freni</category>
+	    <partID>brake_3</partID>
+	    <name>Freni 3</name>
+	    <path>Freni.png</path>
+		<param>
+	        <name>Frenata</name>
+	        <value>3</value>
+	    </param>
+	    <param>
+	        <name>Tenuta</name>
+	        <value>2</value>
+	    </param>
+	   	<param>
+	        <name>Agilita</name>
+	        <value>1</value>
+	    </param>
+	</part>
+	
+	
+	<part>
+		<category>Sospensioni</category>
+	    <partID>suspension_1</partID>
+	    <name>Sospensioni 1</name>
+	    <path>Sospensioni.png</path>
+		<param>
+	        <name>Agilita</name>
+	        <value>2</value>
+	    </param>
+	</part>
+		
+	<part>
+		<category>Sospensioni</category>
+	    <partID>suspension_2</partID>
+	    <name>Sospensioni 2</name>
+	    <path>Sospensioni.png</path>
+		<param>
+	        <name>Agilita</name>
+	        <value>3</value>
+	    </param>
+	</part>
+	
+	<part>
+		<category>Sospensioni</category>
+	    <partID>suspension_3</partID>
+	    <name>Sospensioni 3</name>
+	    <path>Sospensioni.png</path>
+		<param>
+	        <name>Agilita</name>
+	        <value>4</value>
+	    </param>
+	    <param>
+	        <name>Velocita massima</name>
+	        <value>1</value>
+	    </param>
+	</part>
+	
+	<part>
+		<category>Trasmissione</category>
+	    <partID>transmission_1</partID>
+	    <name>Cambio 1</name>
+	    <path>Trasmissione.png</path>
+		<param>
+	        <name>Rapidita cambio</name>
+	        <value>2</value>
+	    </param>
+	</part>
+	
+	<part>
+		<category>Trasmissione</category>
+	    <partID>transmission_2</partID>
+	    <name>Cambio 2</name>
+	    <path>Trasmissione.png</path>
+		<param>
+	        <name>Rapidita cambio</name>
+	        <value>3</value>
+	    </param>
+	    <param>
+	        <name>Accelerazione</name>
+	        <value>1</value>
+	    </param>
+	</part>
+	
+	<part>
+		<category>Trasmissione</category>
+	    <partID>transmission_3</partID>
+	    <name>Cambio 3</name>
+	    <path>Trasmissione.png</path>
+		<param>
+	        <name>Rapidita cambio</name>
+	        <value>4</value>
+	    </param>
+	    <param>
+	        <name>Accelerazione</name>
+	        <value>2</value>
+	    </param>
+	    <param>
+	        <name>Velocita massima</name>
+	        <value>1</value>
+	    </param>
+	</part>
+	
+	<!-- --------------------------------------------------------------- -->
+	
+	<part>
+		<category>Pneumatici</category>
+	    <partID>wheel_default</partID>
+	    <name>Pneumatici Default</name>
+	    <path>Pneumatici.png</path>
+		<param>
+	        <name>Tenuta</name>
+	        <value>1</value>
+	    </param>
+	</part>
+	
+	<part>
+		<category>Motore</category>
+	    <partID>engine_defualt</partID>
+	    <name>Motore Default</name>
+	    <path>Motore.png</path>
+		<param>
+	        <name>Velocità massima</name>
+	        <value>1</value>
+	    </param>
+	    <param>
+	        <name>Accelerazione</name>
+	        <value>1</value>
+	    </param>
+	   	<param>
+	        <name>Potenza</name>
+	        <value>1</value>
+	    </param>
+	</part>
+	
+	<part>
+		<category>Freni</category>
+	    <partID>brake_default</partID>
+	    <name>Freni Default</name>
+	    <path>Freni.png</path>
+		<param>
+	        <name>Tenuta</name>
+	        <value>1</value>
+	    </param>
+	    <param>
+	        <name>Frenata</name>
+	        <value>1</value>
+	    </param>
+	</part>
+	
+	<part>
+		<category>Sospensioni</category>
+	    <partID>suspension_default</partID>
+	    <name>Sospensioni Default</name>
+	    <path>Sospensioni.png</path>
+		<param>
+	        <name>Agilita</name>
+	        <value>1</value>
+	    </param>
+	</part>
+	
+	<part>
+		<category>Trasmissione</category>
+	    <partID>transmission_default</partID>
+	    <name>Trasmissione Default</name>
+	    <path>Trasmissione.png</path>
+		<param>
+	        <name>Rapidita cambio</name>
+	        <value>1</value>
+	    </param>
+		<param>
+	        <name>Velocità massima</name>
+	        <value>1</value>
+	    </param>
+	</part>
+	
+	<!-- ---------------------------------------------------------- -->
+	
+	<part>
+		<category>Motore</category>
+	    <partID>nitro_extra</partID>
+	    <name>Nitro</name>
+	    <path>Motore.png</path>
+		<param>
+	        <name>Accelerazione</name>
+	        <value>2</value>
+	    </param>
+		<param>
+	        <name>Velocità massima</name>
+	        <value>1</value>
+	    </param>
+	</part>
+	
+	<part>
+		<category>Freni</category>
+	    <partID>freno_extra</partID>
+	    <name>Freno a mano</name>
+	    <path>Freni.png</path>
+		<param>
+	        <name>Controllo</name>
+	        <value>1</value>
+	    </param>
+		<param>
+	        <name>Frenata</name>
+	        <value>2</value>
+	    </param>
+	</part>
+	
+		
+	<part>
+		<category>Trasmissione</category>
+	    <partID>sesta_extra</partID>
+	    <name>Sesta Marcia</name>
+	    <path>Trasmissione.png</path>
+		<param>
+	        <name>Rapidita cambio</name>
+	        <value>2</value>
+	    </param>
+	</part>	
+	
+	<part>
+		<category>Pneumatici</category>
+	    <partID>mescola_extra</partID>
+	    <name>Mescola morbida</name>
+	    <path>Pneumatici.png</path>
+		<param>
+	        <name>Controllo</name>
+	        <value>2</value>
+	    </param>
+		<param>
+	        <name>Agilita</name>
+	        <value>1</value>
+	    </param>
+	</part>
+	
+	<part>
+		<category>Motore</category>
+	    <partID>cv_extra</partID>
+	    <name>Cavalli+</name>
+	    <path>Motore.png</path>
+		<param>
+	        <name>Potenza</name>
+	        <value>2</value>
+	    </param>
+		<param>
+	        <name>Velocità massima</name>
+	        <value>1</value>
+	    </param>
+	</part>	
+	
+	
+	<part>
+		<category>Sospensioni</category>
+	    <partID>sospensioni_extra</partID>
+	    <name>Sospensioni Sparco</name>
+	    <path>Sospensioni.png</path>
+		<param>
+	        <name>Agilita</name>
+	        <value>2</value>
+	    </param>
+	    <param>
+	        <name>Tenuta</name>
+	        <value>1</value>
+	    </param>
+	</part>	
+
+</mauto>

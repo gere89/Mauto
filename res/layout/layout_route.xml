@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ 	style="@style/BackgroundLayout" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="206dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/layout_route_top" >
+
+        <TextView
+            android:id="@+id/txt_route_carModel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/txt_route_carModel"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <ImageView
+            android:id="@+id/img_route_underline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_route_carModel"
+            android:src="@drawable/layout_common_underline" />        
+
+        <ImageView
+            android:id="@+id/img_route_carPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txt_route_carModel"
+            android:layout_below="@+id/img_route_underline" />
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+       	android:layout_below="@+id/relativeLayout1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/layout_route_bottom" >
+
+    <TextView
+        android:id="@+id/txt_route_carPosition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:textSize="13dp"
+        android:textColor="#ffffff"
+        android:text="@string/txt_route_carPosition"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    </RelativeLayout>
+    
+ <Button
+        android:id="@+id/btn_route_driveMe"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/btn_tech_guide" />
+ 
+</RelativeLayout>

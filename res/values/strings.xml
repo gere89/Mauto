@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Generale -->
+    <string name="app_name">Mauto</string>
+    <string name="menu_settings">Opzioni</string>
+
+    <!-- Facebook -->
+    <string name="app_name">appMauto</string>
+    <string name="app_id">175622005952493</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="ok">OK</string>
+    <string name="hello_user">Hello %1$s!</string>
+    <string name="success">Success</string>
+    <string name="successfully_posted_post">Successfully posted \'%1$s\'.\nPost ID: %2$s</string>
+    <string name="error">Error</string>
+    <string name="status_update">Updating status for %1$s at %2$s</string>
+    <string name="photo_post">Photo Post</string>
+    <string name="you_picked">You picked:</string>
+    <string name="no_friends_selected">&lt;No friends selected&gt;</string>
+    <string name="no_place_selected">&lt;No place selected&gt;</string>
+    <string name="pick_seattle_place">Pick a Seattle Place</string>
+
+    <string name="exception">Exception: %1$s</string>
+    
+    <!-- Titoli delle activity -->
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_race">RaceActivity</string>
+    <string name="title_activity_route">RouteActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_zbarscanneractivity">QR Scanner</string>
+    <string name="title_activity_qrscanner">QRScannerActivity</string>
+    <string name="title_activity_technical">TechnicalActivity</string>
+    <string name="title_activity_garage">GarageActivity</string>
+    <string name="title_activity_feature">FeatureActivity</string>
+    <string name="title_activity_load">LoadActivity</string>
+    <string name="title_activity_lista_auto">ListaAutoActivity</string>
+    <!-- Testo bottoni menu -->
+    <string name="layout_menu_btn_route">Percorso</string>
+    <string name="layout_menu_btn_qrcode">QR Code</string>
+    <string name="layout_menu_btn_carlist">Lista auto</string>
+    <string name="layout_menu_btn_garage">Garage</string>
+    <string name="layout_menu_btn_bonus">Bonus</string>
+
+    <!-- Testo bottoni menu contestuale -->
+    <string name="menu_mauto_reset_action">Resetta</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Testo componenti -->
+    <string name="layout_feature_btn_on">RIMUOVI</string>
+    <string name="layout_feature_btn_off">AGGIUNGI</string>
+    <string name="title_activity_mauto">MautoActivity</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_base_fragment">BaseFragmentActivity</string>
+
+    <!-- Testo elementi fissi dei layout -->
+    <string name="txt_route_carPosition">Posizione</string>
+    <string name="btn_tech_guide">GUIDAMI NEL MUSEO</string>
+    <string name="txt_route_carModel">Modello auto</string>
+    <string name="txt_carlist_label">Collezione</string>
+    <string name="title_activity_bonus">BonusActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_scheda">SchedaActivity</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_facebook">FacebookActivity</string>
+    
+        <string name="txt_tech_title">SCHEDA TECNICA</string>
+    <string name="txt_tech_carModel">Modello auto</string>
+    <string name="txt_tech_carMaker">Casa produttrice</string>
+    <string name="txt_tech_carYear">Anno</string>
+    <string name="txt_tech_carDescription">Descrizione</string>
+    <string name="txt_tech_carPosition">Posizione</string>
+    <string name="btn_tech_game">GIOCO</string>
+    <string name="btn_tech_continue">CONTINUA IL PERCORSO</string>
+
+</resources>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/BackgroundLayout" >
+    
+    <RelativeLayout
+ 	    android:id="@+id/relativeLayout_technical_top"
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_centerHorizontal="true"
+ 	    android:layout_margin="10dp"
+ 	    android:background="@drawable/layout_route_top" >
+
+ 	    <TextView
+ 	        android:id="@+id/txt_tech_technological"
+ 	        android:layout_width="wrap_content"
+ 	        android:layout_height="wrap_content"
+ 	        android:layout_alignParentLeft="true"
+ 	        android:textColor="#000000"
+ 	        android:textSize="18dp"
+ 	        android:textStyle="bold"
+ 	        android:typeface="sans"
+ 	        android:text="@string/txt_tech_title"
+ 	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+ 	    <ImageView
+ 	        android:id="@+id/img_tech_underline"
+ 	        android:layout_width="fill_parent"
+ 	        android:layout_height="wrap_content"
+ 	        android:layout_below="@+id/txt_tech_technological"
+ 	        android:src="@drawable/layout_common_underline" />
+
+ 	    <ImageView
+ 	        android:id="@+id/img_technical_carPhoto"
+ 	        android:layout_width="115dp"
+ 	        android:layout_height="115dp"
+ 	        android:layout_alignParentLeft="true"
+ 	        android:layout_below="@+id/img_tech_underline"
+ 	        android:layout_toLeftOf="@+id/txt_technical_carModel"
+ 	        android:src="@drawable/ic_launcher" />
+
+ 	    <TextView
+ 	        android:id="@+id/txt_technical_carModel"
+ 	        android:layout_width="wrap_content"
+ 	        android:layout_height="wrap_content"
+ 	        android:layout_alignParentRight="true"
+ 	        android:textColor="#000000"
+ 	        android:textSize="18dp"
+ 	        android:typeface="sans"
+ 	        android:textStyle="bold"
+ 	        android:text="@string/txt_tech_carModel"
+ 	        android:layout_below="@+id/img_tech_underline"
+ 	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+ 	    <TextView
+ 	        android:id="@+id/txt_technical_carMaker"
+ 	        android:layout_width="wrap_content"
+ 	        android:layout_height="wrap_content"
+ 	        android:layout_alignParentRight="true"
+ 	        android:layout_marginTop="4dp"
+ 	        android:textColor="#000000"
+ 	        android:textSize="16dp"
+ 	        android:typeface="sans"
+ 	        android:text="@string/txt_tech_carMaker"
+ 	        android:layout_below="@+id/txt_technical_carModel"
+ 	        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+ 	    <TextView
+ 	        android:id="@+id/txt_technical_carYear"
+ 	        android:layout_width="wrap_content"
+ 	        android:layout_height="wrap_content"
+ 	        android:layout_alignParentRight="true"
+ 	        android:layout_marginTop="2dp"
+ 	        android:textColor="#000000"
+ 	        android:textSize="14dp"
+ 	        android:typeface="sans"
+ 	        android:text="@string/txt_tech_carYear"
+ 	        android:layout_below="@+id/txt_technical_carMaker"
+ 	        android:textAppearance="?android:attr/textAppearanceSmall" />
+ 	    
+ 	    <Button
+ 	        android:id="@+id/btn_game"
+ 	        style="?android:attr/buttonStyleSmall"
+ 	        android:layout_width="wrap_content"
+ 	        android:layout_height="wrap_content"
+ 	        android:layout_marginTop="10dp"
+ 	        android:textStyle="bold"
+ 	        android:text="@string/btn_tech_game"
+ 	        android:layout_alignParentRight="true"
+ 	        android:layout_below="@+id/txt_technical_carYear" />
+
+ 	    <ImageView
+ 	        android:id="@+id/img_tech_underline2"
+ 	        android:layout_width="fill_parent"
+ 	        android:layout_height="wrap_content"
+ 	        android:layout_below="@+id/img_technical_carPhoto"
+ 	        android:src="@drawable/layout_common_underline" />
+ 	    
+ 	    <TextView
+ 	        android:id="@+id/txt_technical_carPosition"
+ 	        android:layout_width="wrap_content"
+ 	        android:layout_height="wrap_content"
+ 	        android:layout_centerHorizontal="true"
+ 	        android:layout_centerVertical="true"
+ 	        android:layout_marginTop="3dp"
+ 	        android:textColor="#000000"
+ 	        android:textSize="14dp"
+ 	        android:textStyle="bold"
+ 	        android:typeface="sans"
+ 	        android:text="@string/txt_tech_carPosition"
+ 	        android:layout_below="@+id/img_tech_underline2"
+ 	        android:textAppearance="?android:attr/textAppearanceSmall" />
+ 	    
+ 	</RelativeLayout>
+    	        
+ 	<RelativeLayout
+        android:id="@+id/relativeLayout_technical_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_below="@+id/relativeLayout_technical_top"
+        android:background="@drawable/layout_route_bottom" >
+ 	    
+ 	    <TextView
+	        android:id="@+id/txt_technical_carDescription"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:typeface="sans"
+	        android:textStyle="bold"
+	        android:textSize="16dp"
+	        android:textColor="#FFFFFF"
+        	android:scrollHorizontally="true"
+    		android:ellipsize="marquee"
+    		android:maxLines="3"
+    		android:focusable="true"
+    		android:focusableInTouchMode="true"
+    		android:marqueeRepeatLimit="marquee_forever"
+        	android:text="@string/txt_tech_carDescription"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+ 	    
+ 	    <!-- <it.polito.mauto.classes.ScrollTextView
+	        android:id="@+id/txt_technical_carDescription"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:typeface="sans"
+	        android:textStyle="bold"
+	        android:textSize="16dp"
+	        android:textColor="#FFFFFF"
+        	android:scrollHorizontally="true"
+    		android:ellipsize="marquee"
+    		android:focusable="true"
+    		android:focusableInTouchMode="true"
+    		android:marqueeRepeatLimit="marquee_forever"
+        	android:text="@string/txt_tech_carDescription"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />-->
+   		
+ 	    
+ 	    <!-- <TextView
+	        android:id="@+id/txt_technical_carDescription"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:typeface="sans"
+	        android:textSize="16dp"
+	        android:textStyle="bold"
+	        android:textColor="#FFFFFF"
+        	android:maxLines="5"
+        	android:scrollbars="vertical"
+        	android:text="@string/txt_tech_carDescription"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />-->
+	    
+    </RelativeLayout>
+
+</RelativeLayout>

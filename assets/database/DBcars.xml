@@ -1,0 +1,850 @@
+﻿<?xml version="1.0"?>
+
+<mauto>
+    <automobile>
+	    <id>race1</id>
+        <modello>RENAULT 3.5 HP</modello>
+        <casa>RENAULT</casa>
+        <anno>1899</anno>
+        <descrizione>Grandi successi in gare di velocità tra cui la Parigi - Ostenda con i fratelli Renault.</descrizione>
+        <categoria>Gare e sfide</categoria>
+        <posizione>Piano II - "Il grande garage del futuro"</posizione>
+        <path>car_35_hp</path>
+    </automobile>
+	
+	<automobile>
+	    <id>race2</id>
+        <modello>ITALA 35/45 HP</modello>
+        <casa>ITALA</casa>
+        <anno>1907</anno>
+        <descrizione>Aveva due enormi serbatoi che consentivano di portare molto carburante rispetto alle altre.</descrizione>
+        <categoria>Gare e sfide</categoria>
+        <posizione>Piano II - "Fino al centro del Mondo"</posizione>
+        <path>car_35_45_hp</path>
+    </automobile>
+	
+	<automobile>
+	    <id>race3</id>
+        <modello>SPA 23 S</modello>
+        <casa>SPA</casa>
+        <anno>1922</anno>
+        <descrizione>Fu una dei primi lavori della Bertone che realizzò la carrozzeria sulla meccanica della SPA.</descrizione>
+        <categoria>Gare e sfide</categoria>
+        <posizione>Piano II - "I folli anni venti e trenta"</posizione>
+        <path>car_23_s</path>
+    </automobile>
+	
+	<automobile>
+	    <id>race4</id>
+        <modello>TEMPERINO 8/10 HP</modello>
+        <casa>TEMPERINO</casa>
+        <anno>1920</anno>
+        <descrizione>Era venduta con diversi tipi di carrozzeria,  dalla tipo spider al camioncino a due posti. La versione sportiva ottenne ottimi risultati sul circuito di Sestriere.</descrizione>
+        <categoria>Gare e sfide</categoria>
+        <posizione>Piano I - "Autorino"</posizione>
+        <path>car_8_10_hp</path>
+    </automobile>
+	
+	<automobile>
+	    <id>race5</id>
+        <modello>ALFA 6C1500</modello>
+        <casa>ALFA ROMEO</casa>
+        <anno>1928</anno>
+        <descrizione>Questo esposto è l'autotelaio della vettura con cui Campari e Ramponi vinsero la Mille Miglia del 1928.</descrizione>
+        <categoria>Gare e sfide</categoria>
+        <posizione>Piano I - "Sinfonia meccanica"</posizione>
+        <path>car_6c1500</path>
+    </automobile>
+	
+	<automobile>
+	    <id>race6</id>
+        <modello>LANCIA DELTA EVOLUZIONE</modello>
+        <casa>LANCIA</casa>
+        <anno>1991</anno>
+        <descrizione>Fu una delle più grandi vetture nel mondo delle gare di tipo Rally. Ottenne 4 vittorie in 7 stagioni mondiali.</descrizione>
+        <categoria>Gare e sfide</categoria>
+        <posizione>Piano I - "Giungla"</posizione>
+        <path>car_delta_evoluzione</path>
+    </automobile>
+	
+	<automobile>
+	    <id>race7</id>
+        <modello>FIAT 130 HP GRAND PRIX</modello>
+        <casa>FIAT</casa>
+        <anno>1907</anno>
+        <descrizione>Hai notato? Le aperture sul cofano servivano a fare entrare e uscire l'aria per raffreddare meglio il motore.</descrizione>
+        <categoria>Gare e sfide</categoria>
+        <posizione>Piano I - "Formula"</posizione>
+        <path>car_130_hp</path>
+    </automobile>
+	
+	<automobile>
+	    <id>race8</id>
+        <modello>FIAT S 57/14 B</modello>
+        <casa>FIAT</casa>
+        <anno>1914</anno>
+        <descrizione>La vittoria del pilota Masetti nella competizione targa Florio fu un capolavoro perché la S 57/14 B era obsoleta e molto meno potente delle avversarie Mercese e Alfa Romeo.</descrizione>
+        <categoria>Gare e sfide</categoria>
+        <posizione>Piano I - "Formula"</posizione>
+        <path>car_s_57_14_B</path>
+    </automobile>
+	
+	<automobile>
+	    <id>race9</id>
+        <modello>MASERATI 26B</modello>
+        <casa>MASERATI</casa>
+        <anno>1928</anno>
+        <descrizione>E' la seconda vettura da corsa realizzata dai fratelli Maserati nelle officine di Bologna, evoluzione del precedente tipo "26" che aveva esordito alla Targa Florio 1927 aggiudicandosi il terzo posto assoluto, con al volante Alfieri Maserati. La "26 B" vinse nel 1928 il Campionato Italiano Marche, grazie alle affermazioni di piloti come Ernesto Maserati, Baconin Borzacchini, Ajmo Maggi ed altri.</descrizione>
+        <categoria>Gare e sfide</categoria>
+        <posizione>Piano I - "Formula"</posizione>
+        <path>car_26b</path>
+    </automobile>
+	
+	<automobile>
+	    <id>race10</id>
+        <modello>BUGATTI 35B</modello>
+        <casa>BUGATTI</casa>
+        <anno>1929</anno>
+        <descrizione>Ottenne 2000 vittorie in 7 anni, vincendo ben 5 Targhe Florio. La vettura risulta estremamente leggera e aereodinamica, consentendo di raggiungere una velocità di 210 Km/h.</descrizione>
+        <categoria>Gare e sfide</categoria>
+        <posizione>Piano I - "Formula"</posizione>
+        <path>car_35b</path>
+    </automobile>
+	
+	<automobile>
+	    <id>race11</id>
+        <modello>ALFA P2</modello>
+        <casa>ALFA ROMEO</casa>
+        <anno>1920</anno>
+        <descrizione>Fu la capostipite di tutte le sportive della casa Alfa Romeo ed anche la prima auto a montare un motore a 8c cilindri. La prima creazione del grande Vittorio Jano.</descrizione>
+        <categoria>Gare e sfide</categoria>
+        <posizione>Piano I - "Formula"</posizione>
+        <path>car_p2</path>
+    </automobile>
+	
+	<automobile>
+	    <id>race12</id>
+        <modello>MASERATI 250 F</modello>
+        <casa>MASERATI</casa>
+        <anno>1954</anno>
+        <descrizione>Una delle più famose auto in Formula 1, protagonista dei Gran Premi per ben 7 anni consecutivi. Fangio divenne campione del mondo a bordo di quest'auto; fu leggendario nel GP di Nurbourgring, recuperando in 20 giri un ritardo di quasi 1 minuto, sorpassando il primo in testa all'ultimo giro, vincendo il GP.</descrizione>
+        <categoria>Gare e sfide</categoria>
+        <posizione>Piano I - "Formula"</posizione>
+        <path>car_250_f</path>
+    </automobile>
+	
+	<automobile>
+	    <id>race13</id>
+        <modello>BENZ RW196</modello>
+        <casa>MERCEDES</casa>
+        <anno>1954</anno>
+        <descrizione>Importante caratteristica che gli permise di migliorare le prestazioni del motore fu l'ignezione diretta, grazie all'esperienza degli ingegneri Mercedes e Benz.</descrizione>
+        <categoria>Gare e sfide</categoria>
+        <posizione>Piano I - "Formula"</posizione>
+        <path>car_benz_rw196</path>
+    </automobile>
+	
+	<automobile>
+	    <id>race14</id>
+        <modello>NIBBIO 2</modello>
+        <casa>NIBBIO</casa>
+        <anno>1955</anno>
+        <descrizione>Vettura speciale, da record in velocità.</descrizione>
+        <categoria>Gare e sfide</categoria>
+        <posizione>Piano I - "Formula"</posizione>
+        <path>car_nibbio_2</path>
+    </automobile>
+	
+	<automobile>
+	    <id>race15</id>
+        <modello>FERRARI 246 F1</modello>
+        <casa>FERRARI</casa>
+        <anno>1960</anno>
+        <descrizione>Guidata da Mike Hawthorn, ha vinto il campionato mondiale piloti. Vennero abbandonati i freni a tamburo in favore dei freni a disco.</descrizione>
+        <categoria>Gare e sfide</categoria>
+        <posizione>Piano I - "Formula"</posizione>
+        <path>car_246_f1</path>
+    </automobile>
+	
+	<automobile>
+	    <id>race16</id>
+        <modello>DRAGSTER</modello>
+        <casa>DRAGSTER</casa>
+        <anno>1965</anno>
+        <descrizione>La carrozzeria e la meccanica di questi tipo di veicoli vengono semplificate al massimo per raggiungere una velocità massima (500 Km/h). Usano un paracadute per favorire la frenata. Il rumore del motore supera i 140dB e i piloti spesso subiscono un distacco della retina per la forza con cui vengono sbattuti sullo schienale.</descrizione>
+        <categoria>Gare e sfide</categoria>
+        <posizione>Piano I - "Formula"</posizione>
+        <path>car_dragster</path>
+    </automobile>
+	
+	<automobile>
+	    <id>race17</id>
+        <modello>ALFA 33 TT 12</modello>
+        <casa>ALFA ROMEO</casa>
+        <anno>1975</anno>
+        <descrizione>Era caratterizzata da un telaio tubolare. ll telaio a tubi ha la caratteristica d'essere molto flessibile e resistente, mantenendo un ingombro minore rispetto agli altri tipi di telaio.</descrizione>
+        <categoria>Gare e sfide</categoria>
+        <posizione>Piano II - "Formula"</posizione>
+        <path>car_33_tt_12</path>
+    </automobile>
+	
+	<automobile>
+	    <id>race18</id>
+        <modello>ALFA 8C2300</modello>
+        <casa>ALFA ROMEO</casa>
+        <anno>1934</anno>
+        <descrizione>Questa celebre Alfa ha avuto la particolarità di poter essere utilizzata sia come auto da gran turismo sia in versione da competizione. Pilotata dai più grandi corridori del tempo (tra cui Nuvolari, Borzacchini, Brivio, Sommer, Chinetti, Campari).</descrizione>
+        <categoria>Gare e sfide</categoria>
+        <posizione>Piano I - "Design"</posizione>
+        <path>car_8c2300</path>
+    </automobile>
+	
+    <automobile>
+	    <id>fams1</id>
+        <modello>ISOTTA FRASCHINI AN 20/30 HP</modello>
+        <casa>ISOTTA FRASCHINI</casa>
+        <anno>1909</anno>
+        <descrizione>L'Isotta Fraschini è stata una delle più famose fabbriche italiane. Fondata nel 1900 a Milano da Cesare Isotta e Vincenzo Fraschini, fu per molti anni nota in tutto il mondo per le sue prestigiose vetture di gran lusso. Questo modello è stato studiato da Giustino Cattaneo, tecnico cui si deve fra l'altro il brevetto dei freni sulle ruote anteriori.</descrizione>
+        <categoria>Personaggi famosi e lusso</categoria>
+        <posizione>Piano II - "Il lusso dell'auto"</posizione>
+        <path>car_an_2030_hp</path>
+    </automobile>
+	
+	<automobile>
+	    <id>fams2</id>
+        <modello>ITALA 35/45 HP</modello>
+        <casa>ITALA</casa>
+        <anno>1909</anno>
+        <descrizione>Costruita per la regina Margherita di Savoia. Puoi notare che al posto del logo è incisa la scritta "Palombella" proprio per identificare la destinazione reale. Infine puoi vedere due diversi pedali per i freni, che agivano separatamente sulle ruote anteriori e sulle posteriori.</descrizione>
+        <categoria>Personaggi famosi e lusso</categoria>
+        <posizione>Piano II - "Il lusso dell'auto"</posizione>
+        <path>car_3545_hp</path>
+    </automobile>
+	
+	<automobile>
+	    <id>fams3</id>
+        <modello>AB8</modello>
+        <casa>DELAGE</casa>
+        <anno>1913</anno>
+        <descrizione>Fondata da Louis Delage nel 1905, l'omonima fabbrica é rimasta fino alla sua chiusura, nel 1935, una delle Case europee più reputate per la raffinata classe dei suoi modelli da turismo e da corsa. Questo modello di vettura leggera, costruita dal 1910 al 1913, si distingue per la bellezza della costruzione meccanica e per la purezza della linea di carrozzeria.</descrizione>
+        <categoria>Personaggi famosi e lusso</categoria>
+        <posizione>Piano II - "Il lusso dell'auto"</posizione>
+        <path>car_ab8</path>
+    </automobile>
+	
+	<automobile>
+	    <id>fams4</id>
+        <modello>FIAT 4</modello>
+        <casa>FIAT</casa>
+        <anno>1911</anno>
+        <descrizione>Il re Vittorio Emanuele III usò la versione "Torpedo militare" di quest'auto che conteneva 6 persone.</descrizione>
+        <categoria>Personaggi famosi e lusso</categoria>
+        <posizione>Piano II - "La guerra scombina le carte"</posizione>
+        <path>car_fiat_4</path>
+    </automobile>
+	
+	<automobile>
+	    <id>fams5</id>
+        <modello>ROLLS ROYCE 40/50 HP</modello>
+        <casa>ROLLS ROYCE</casa>
+        <anno>1914</anno>
+        <descrizione>Chiamata "silver ghost" viene usata nella prima guerra mondiale come vettura dello stato britannico sul fronte francese. Questa è l'auto più costosa a livello mondiale.</descrizione>
+        <categoria>Personaggi famosi e lusso</categoria>
+        <posizione>Piano II - "I folli anni venti e trenta"</posizione>
+        <path>car_4050_hp</path>
+    </automobile>
+	
+	<automobile>
+	    <id>fams6</id>
+        <modello>ISOTTA FRASCHINI 8A</modello>
+        <casa>ISOTTA FRASCHINI</casa>
+        <anno>1923</anno>
+        <descrizione>E' stata usata nel film "Sunset Boulevard" (Viale del tramonto) ed era destinata ai personaggi più ricchi e famosi.</descrizione>
+        <categoria>Personaggi famosi e lusso</categoria>
+        <posizione>Piano II - "I folli anni venti e trenta"</posizione>
+        <path>car_8a</path>
+    </automobile>
+	
+	<automobile>
+	    <id>fams7</id>
+        <modello>CADILLAC 62</modello>
+        <casa>CADILLAC</casa>
+        <anno>1947</anno>
+        <descrizione> Lo slogan di questa prestigiosa azienda, che divenne rapidamente sinonimo delle migliori vetture di lusso costruite negli Stati Uniti, recitava: "Il nostro credo è la perfezione; la nostra legge la precisione". Il modello "62" segnò l'apice della risonanza mondiale della casa di Detroit e fu prodotto in versioni successive, con carrozzeria coupé, convertibile o sedan, fino al 1964.</descrizione>
+        <categoria>Personaggi famosi e lusso</categoria>
+        <posizione>Piano II - "Davide e Golia"</posizione>
+        <path>car_cadillac_62</path>
+    </automobile>
+	
+	<automobile>
+	    <id>fams8</id>
+        <modello>MINI 1000 MK II</modello>
+        <casa>MORRIS</casa>
+        <anno>1969</anno>
+        <descrizione>E' l'auto di Mr. Bean ed è anche stata usata nel film "The italian job".</descrizione>
+        <categoria>Personaggi famosi e lusso</categoria>
+        <posizione>Piano II - "Arriva la felicità"</posizione>
+        <path>car_mini_1000_mk_2</path>
+    </automobile>
+	
+	<automobile>
+	    <id>fams9</id>
+        <modello>BIANCHINA 500</modello>
+        <casa>AUTOBIANCHI</casa>
+        <anno>1959</anno>
+        <descrizione>E' la macchina di Ugo Fantozzi.</descrizione>
+        <categoria>Personaggi famosi e lusso</categoria>
+        <posizione>Piano I - "Metamorfosi"</posizione>
+        <path>car_bianchina_500</path>
+    </automobile>
+	
+	<automobile>
+	    <id>fams10</id>
+        <modello>FLAMINIA PRESIDENZIALE</modello>
+        <casa>LANCIA</casa>
+        <anno>1961</anno>
+        <descrizione>Realizzata da Pininfarina per la presidenza della repubblica italiana.</descrizione>
+        <categoria>Personaggi famosi e lusso</categoria>
+        <posizione>Piano T - "Morphing"</posizione>
+        <path>car_flaminia_presidenziale</path>
+    </automobile>
+	
+	<automobile>
+	    <id>fams11</id>
+        <modello>ALFA TOURING SPIDER</modello>
+        <casa>ALFA ROMEO</casa>
+        <anno>1965</anno>
+        <descrizione>Vettura confortevole di alta classe, elegante e imponente.</descrizione>
+        <categoria>Personaggi famosi e lusso</categoria>
+        <posizione>Piano T - "Morphing"</posizione>
+        <path>car_touring_spider</path>
+    </automobile>
+	    
+	<automobile>
+	    <id>hist1</id>
+        <modello>CARRO DI CUGNOT</modello>
+        <casa>CARRO DI CUGNOT</casa>
+        <anno>1769</anno>
+        <descrizione>Riproduzione, in scala 7/10, del primo veicolo semovente del mondo.</descrizione>
+        <categoria>Primati e storia</categoria>
+        <posizione>Piano II - "Genesi"</posizione>
+        <path>car_carro_di_cugnot</path>
+    </automobile>
+	
+	<automobile>
+	    <id>hist2</id>
+        <modello>DARACQ</modello>
+        <casa>DARACQ 9.5 HP</casa>
+        <anno>1902</anno>
+        <descrizione>Questa vettura, pilotata da Paul Baras, compì alla "Settimana di Nizza" del 1902 un'autentica prodezza: il chilometro lanciato in meno di 36 secondi, pari a oltre 100 km all'ora.</descrizione>
+        <categoria>Primati e storia</categoria>
+        <posizione>Piano II - "Il grande garage del futuro"</posizione>
+        <path>car_daraq_95_hp</path>
+    </automobile>
+	
+	<automobile>
+	    <id>hist3</id>
+        <modello>FLORENTIA 10 HP</modello>
+        <casa>FLORENTIA</casa>
+        <anno>1903</anno>
+        <descrizione>E' l'unico esemplare tuttora esistente della Florentia 10HP.</descrizione>
+        <categoria>Primati e storia</categoria>
+        <posizione>Piano II - "Il grande garage del futuro"</posizione>
+        <path>car_10_hp</path>
+    </automobile>
+	
+	<automobile>
+	    <id>hist4</id>
+        <modello>FIAT 4</modello>
+        <casa>FIAT</casa>
+        <anno>1899</anno>
+        <descrizione>E' un'automobile storica perché è la prima costruita da quella che diventerà la maggiore industria automobilistica italiana e una delle più importanti del mondo: la FIAT.</descrizione>
+        <categoria>Primati e storia</categoria>
+        <posizione>Piano II - "Il grande garage del futuro "</posizione>
+        <path>car_fiat_4</path>
+    </automobile>
+	
+	<automobile>
+	    <id>hist5</id>
+        <modello>FIAT 12/16 HP</modello>
+        <casa>FIAT</casa>
+        <anno>1904</anno>
+        <descrizione>Per la prima volta nella storia della Fiat ha il radiatore a nido d'ape.   La "12/16 HP" venne costruita fino al 1903 in 110 esemplari e fu la prima automobile Fiat ad essere esportata</descrizione>
+        <categoria>Primati e storia</categoria>
+        <posizione>Piano II - "Il grande garage del futuro"</posizione>
+        <path>car_12_16_hp</path>
+    </automobile>
+	
+	<automobile>
+	    <id>hist6</id>
+        <modello>ITALA 35/45 HP</modello>
+        <casa>ITALA</casa>
+        <anno>1909</anno>
+        <descrizione>E' la storica vettura che nel 1907, con l'equipaggio composto dal principe Scipione Borghese, il meccanico Ettore Guizzardi e Luigi Barzini, inviato speciale del Corriere della Sera, vinse in 60 giorni il raid Pechino – Parigi, promosso dal quotidiano francese "Le Matin". Appositamente attrezzata per la gara, dotata di due enormi serbatoi laterali per la benzina.</descrizione>
+        <categoria>Primati e storia</categoria>
+        <posizione>Piano II - "Fino al centro del Mondo"</posizione>
+        <path>car_3545_hp</path>
+    </automobile>
+	
+	<automobile>
+	    <id>hist7</id>
+        <modello>AG-FIACRE-PARIS TAXI DELLA MARNA</modello>
+        <casa>RENAULT</casa>
+        <anno>1910</anno>
+        <descrizione>A Parigi durante la guerra della Marna furono utilizzati per la prima volta nella guerra moderna mezzi motorizzati per portare rapidamente le truppe sul campo di battaglia. Durante questa furono impiegati 670 AG-FIACRE PARIS per spostare i soldati.</descrizione>
+        <categoria>Primati e storia</categoria>
+        <posizione>Piano II - "La guerra scombina le carte"</posizione>
+        <path>car_taxi_della_marna</path>
+    </automobile>
+	
+	<automobile>
+	    <id>hist8</id>
+        <modello>CITROEN C3-5CV</modello>
+        <casa>CITROEN</casa>
+        <anno>1922</anno>
+        <descrizione>Uno dei primi modelli con i quali André Citroen aveva iniziato la costruzione di automobili, dopo aver riconvertito i suoi impianti in precedenza destinati a produzioni belliche.</descrizione>
+        <categoria>Primati e storia</categoria>
+        <posizione>Piano II - "Genesi"</posizione>
+        <path>car_c3_5cv</path>
+    </automobile>
+	
+	<automobile>
+	    <id>hist9</id>
+        <modello>500 TOPOLINO</modello>
+        <casa>FIAT</casa>
+        <anno>1922</anno>
+        <descrizione>La Fiat "500", popolarmente conosciuta come Topolino, è stata la più piccola vettura del mondo prodotta in grande serie.</descrizione>
+        <categoria>Primati e storia</categoria>
+        <posizione>Piano II - "Tutto cambia"</posizione>
+        <path>car_500_topolino</path>
+    </automobile>
+	
+	<automobile>
+	    <id>hist10</id>
+        <modello>JEEP</modello>
+        <casa>FORD</casa>
+        <anno>1941</anno>
+        <descrizione>E' il famoso veicolo impiegato dall'esercito americano durante l'ultimo conflitto mondiale. Il nome Jeep deriva dalla pronuncia delle iniziali "G.P." (general purpose), ossia "multiuso".</descrizione>
+        <categoria>Primati e storia</categoria>
+        <posizione>Piano II - "Tutto cambia"</posizione>
+        <path>car_jeep</path>
+    </automobile>
+	
+	<automobile>
+	    <id>hist11</id>
+        <modello>GIULIETTA SPRINT</modello>
+        <casa>ALFA ROMEO</casa>
+        <anno>1954</anno>
+        <descrizione>Una delle vetture più rappresentative dello stile e dell'ingegneria automobilistica italiana.</descrizione>
+        <categoria>Primati e storia</categoria>
+        <posizione>Piano II - "Gli anni della ripresa"</posizione>
+        <path>car_giulietta_sprint</path>
+    </automobile>
+	
+	<automobile>
+	    <id>hist12</id>
+        <modello>500</modello>
+        <casa>FIAT</casa>
+        <anno>1962</anno>
+        <descrizione>La Nuova 500 diede un impulso straordinario alla nostra motorizzazione. Fu costruita per oltre venti anni in tre milioni e mezzo di esemplari e quando uscì di produzione in Italia circolavano dieci milioni di vetture.</descrizione>
+        <categoria>Primati e storia</categoria>
+        <posizione>Piano II - "Arriva la felicità"</posizione>
+        <path>car_500</path>
+    </automobile>
+	
+	<automobile>
+	    <id>hist13</id>
+        <modello>JAGUAR E 4.2</modello>
+        <casa>JAGUAR</casa>
+        <anno>1969</anno>
+        <descrizione>Fu per la casa britannica un successo mondiale. Questa filante e veloce granturismo che doveva sostituire la gloriosa XK, fu equipaggiata fino al 1971 con un 6 cilindri inizialmente di 3.8 litri e quindi portato a 4.2 litri di cilindrata.</descrizione>
+        <categoria>Primati e storia</categoria>
+        <posizione>Piano II - "Arriva la felicità"</posizione>
+        <path>car_jaguar_e42</path>
+    </automobile>
+	
+	<automobile>
+	    <id>hist14</id>
+        <modello>FORD T</modello>
+        <casa>FORD</casa>
+        <anno>1916</anno>
+        <descrizione>La Model T fu la prima vettura prodotta in grandissima serie utilizzando la catena di montaggio. Tra il 1915 e il 1925, per velocizzare la produzione la Model T era disponibile in un solo colore: il nero opaco, questo per risparmiare sui costi. Tra il 1908 e il 1914 e nel biennio finale 1926 - 1927 la model T era disponibile anche in colori differenti dal nero in particolare, verde, marrone, grigio e blu.</descrizione>
+        <categoria>Primati e storia</categoria>
+        <posizione>Piano I - "Metamorfosi"</posizione>
+        <path>car_ford_t</path>
+    </automobile>
+	
+	<automobile>
+	    <id>hist15</id>
+        <modello>TIPO 1 (MAGGIOLINO)</modello>
+        <casa>VOLKSWAGEN</casa>
+        <anno>1952</anno>
+        <descrizione>Diventò in pochi anni l'automobile più venduta del mondo, proverbiale per le sue doti di robustezza, affidabilità, economia.</descrizione>
+        <categoria>Primati e storia</categoria>
+        <posizione>Piano I - "Metamorfosi"</posizione>
+        <path>car_maggiolino</path>
+    </automobile>
+	
+	<automobile>
+	    <id>hist16</id>
+        <modello>TARF</modello>
+        <casa>TARF</casa>
+        <anno>1948</anno>
+        <descrizione>È una macchina da record con carrozzeria "bisiluro" progettata con due telai  separati in tubi d'acciaio e rivestimenti "a goccia". In quello di sinistra, è ricavato l'abitacolo per il pilota, in quello di destra è sistemato il gruppo motore-cambio e il serbatoio. In soli 9 anni conquistò 22 record internazionali di velocità.</descrizione>
+        <categoria>Primati e storia</categoria>
+        <posizione>Piano I - "Formula"</posizione>
+        <path>car_tarf</path>
+    </automobile>
+	
+	<automobile>
+	    <id>hist17</id>
+        <modello>F40</modello>
+        <casa>FERRARI</casa>
+        <anno>1987</anno>
+        <descrizione>È l'ultima vettura deliberata da Enzo Ferrari ed è considerata la vettura di serie più veloce al mondo. Nel giro di poco tempo è diventata ambito oggetto da collezione raggiungendo quotazioni astronomiche.</descrizione>
+        <categoria>Primati e storia</categoria>
+        <posizione>Piano I - "Formula"</posizione>
+        <path>car_ferrari_f40</path>
+    </automobile>
+	
+	<automobile>
+	    <id>hist18</id>
+        <modello>FIAT 519 S</modello>
+        <casa>FIAT</casa>
+        <anno>1923</anno>
+        <descrizione>È stata la prima vettura ad essere prodotta negli stabilimenti del Lingotto. Furono prodotti 2411 esemplari e se ne sono conservati 25; tra questi, solamente una è la "519" prima serie, e dunque era solo una e la vera e propria "519". Le altre erano versioni accorciate derivate.</descrizione>
+        <categoria>Primati e storia</categoria>
+        <posizione>Piano I - "Design"</posizione>
+        <path>car_fiat_519s</path>
+    </automobile>
+	
+	<automobile>
+	    <id>hist19</id>
+        <modello>ABARTH 2400 COUPE' ALLEMANO</modello>
+        <casa>ABARTH</casa>
+        <anno>1964</anno>
+        <descrizione>Vettura unica appartenuta a Carlo Abarth (lo stemma della casa deriva dal segno zodiacale del creatore), personaggio del mondo delle gare automobilistiche e 5 volte campione. SI dedicò successivamente all'elaborazione di auto.</descrizione>
+        <categoria>Primati e storia</categoria>
+        <posizione>Piano I - "Design"</posizione>
+        <path>car_abarth_2400</path>
+    </automobile>
+    
+	<automobile>
+		<id>tech1</id>
+		<modello>CARRO DI CUGNOT</modello>
+		<casa>CARRO DI CUGNOT</casa>
+		<anno>1769</anno>
+		<descrizione>Riproduzione, in scala 7/10, del primo veicolo semovente del mondo.</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano II - "Genesi"</posizione>
+		<path>car_carro_di_cugnot</path>
+	</automobile>
+
+	<automobile>
+		<id>tech2</id>
+		<modello>CARROZZA DI BORDINO</modello>
+		<casa>CARROZZA DI BORDINO</casa>
+		<anno>1964</anno>
+		<descrizione>Originale il sistema di trasmissione a mezzo di bielle collegate direttamente all'assale posteriore sagomato ad albero a gomito.</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano II - "I cavalli diventano fantasmi"</posizione>
+		<path>car_carrozza_di_bordino</path>
+	</automobile>
+
+	<automobile>
+		<id>tech3</id>
+		<modello>BENZ 8 HP BREAK</modello>
+		<casa>BENZ</casa>
+		<anno>1899</anno>
+		<descrizione>Per la prima volta su una Benz, il motore è a 2 cilindri, in posizione orizzontale, con trasmissione primaria a cinghia e secondaria a catena.</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano II - "Il grande garage del futuro"</posizione>
+		<path>car_benz_8_hp</path>
+	</automobile>
+
+	<automobile>
+		<id>tech4</id>
+		<modello>FIAT 8 HP</modello>
+		<casa>FIAT</casa>
+		<anno>1901</anno>
+		<descrizione>E’ il primo modello Fiat con motore a 2 cilindri verticali sistemato anteriormente. La vettura esposta è quella guidata da Emanuele Cacherano di Bricherasio (co-fondatore della FIAT).</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano II - "Il grande garage del futuro"</posizione>
+		<path>car_fiat_8_hp</path>
+	</automobile>
+
+	<automobile>
+		<id>tech5</id>
+		<modello>CURVED DASH</modello>
+		<casa>OLDSOBILE</casa>
+		<anno>1904</anno>
+		<descrizione>Questo modello era stato chiamato Curved Dash (cruscotto curvo) perché la parte anteriore della scocca era incurvata verso l’alto come una slitta.</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano II - "Il grande garage del futuro"</posizione>
+		<path>car_oldsmobile</path>
+	</automobile>
+
+	<automobile>
+		<id>tech6</id>
+		<modello>FIAT 24/40 HP</modello>
+		<casa>FIAT</casa>
+		<anno>1906</anno>
+		<descrizione>Caratteristico di questo modello è il sistema di decompressione del motore per facilitarne l’avviamento e l’impianto ad acqua per raffreddare i freni nelle discese. Da notare il contachilometri applicato sulla ruota anteriore.</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano II - "Fervore meccanico del '900"</posizione>
+		<path>car_fiat_2440_hp</path>
+	</automobile>
+
+	<automobile>
+		<id>tech7</id>
+		<modello>BRIXIA 10 HP</modello>
+		<casa>BRIXIA</casa>
+		<anno>1908</anno>
+		<descrizione>Ha una particolarità unica: il motore a 3 cilindri monoblocco a testa fissa con valvole laterali comandate da due alberi a camme posti nel basamento.</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano II - "Fervore meccanico del '900"</posizione>
+		<path>car_brixia_10_hp</path>
+	</automobile>
+
+	<automobile>
+		<id>tech8</id>
+		<modello>VETTURA ELETTRICA</modello>
+		<casa>STAE</casa>
+		<anno>1909</anno>
+		<descrizione> Questa vettura è dotata di motore elettrico, in posizione centrale, con trasmissione ad albero cardanico ed alimentazione con batteria, alloggiata nel falso cofano motore.</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano II - "Fervore meccanico del '900"</posizione>
+		<path>car_elettrica</path>
+	</automobile>
+
+	<automobile>
+		<id>tech9</id>
+		<modello>FIAT ZERO</modello>
+		<casa>FIAT</casa>
+		<anno>1912</anno>
+		<descrizione>Fu la prima vettura di ridotta cilindrata costruita in serie. Nel 1915 viene messo anche l'impianto elettrico.</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano II - "Fervore meccanico del '900"</posizione>
+		<path>car_fiat_zero</path>
+	</automobile>
+
+	<automobile>
+		<id>tech10</id>
+		<modello>CITROEN 11CV</modello>
+		<casa>CITROEN</casa>
+		<anno>1934</anno>
+		<descrizione>E’ la rivoluzionaria vettura a trazione anteriore (all’epoca fu battezzata appunto Traction Avant) presentata dalla Citroen nel 1934.</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano II - "Tutto cambia"</posizione>
+		<path>car_11cv</path>
+	</automobile>
+
+	<automobile>
+		<id>tech11</id>
+		<modello>CISITALIA 202</modello>
+		<casa>CISITALIA</casa>
+		<anno>1948</anno>
+		<descrizione>Rivoluzionario per l’epoca è il disegno orizzontale della griglia del radiatore, con il cofano motore più basso dei parafanghi, che incorporano i fari.</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano II - "La rivoluzione italiana"</posizione>
+		<path>car_cisitalia_202</path>
+	</automobile>
+
+	<automobile>
+		<id>tech12</id>
+		<modello>CITROEN DS 19</modello>
+		<casa>CITROEN</casa>
+		<anno>1948</anno>
+		<descrizione>Fu la prima macchina ad avere i freni a disco.</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano II - "La rivoluzione francese"</posizione>
+		<path>car_ds_19</path>
+	</automobile>
+
+	<automobile>
+		<id>tech13</id>
+		<modello>600 MULTIPLA</modello>
+		<casa>FIAT</casa>
+		<anno>1955</anno>
+		<descrizione>L’esemplare esposto è stato rielaborato per sottolinearne l'incredibile efficienza di spazio, potendo ospitare 6 persone in tre metri  e mezzo.</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano II - "Gli anni della ripresa"</posizione>
+		<path>car_600_multipla</path>
+	</automobile>
+
+	<automobile>
+		<id>tech14</id>
+		<modello>600</modello>
+		<casa>FIAT</casa>
+		<anno>1955</anno>
+		<descrizione>Erede della Topolino, la “600” venne lanciata nella primavera del 1955, destando sensazione per le soluzioni costruttive d’avanguardia a cominciare dal motore montato posteriormente e dalla sospensione a 4 ruote indipendenti.</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano II - "Arriva la felicità"</posizione>
+		<path>car_600</path>
+	</automobile>
+
+	<automobile>
+		<id>tech15</id>
+		<modello>MINI 1000 MK II</modello>
+		<casa>MORRIS</casa>
+		<anno>1969</anno>
+		<descrizione>Grazie alla disposizione anteriore trasversale del motore, al cambio montato sotto il motore e alla trazione anteriore (tutte caratteristiche grandemente innovative per l’epoca), la vettura, lunga appena 303 cm, poteva portare 4 persone. Spaziosa dentro, piccola fuori”, divenne la definizione più azzeccata per questa 2 volumi 2 porte, che offriva l’80% del pianale all’ingombro dei  passeggeri e del bagaglio.</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano II - "Arriva la felicità"</posizione>
+		<path>car_mini_1000_mk_2</path>
+	</automobile>
+
+	<automobile>
+		<id>tech16</id>
+		<modello>NSU RO 80</modello>
+		<casa>NSU</casa>
+		<anno>1966</anno>
+		<descrizione>Innovativo modello dotato del motore a pistoni rotanti, brevetto Wankel, che negli anni Sessanta aveva destato grande interesse per l’assenza di organi meccanici con movimento alternato e quindi per le sue doti di silenziosità.</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano II - "Nuove tendenze in Europa"</posizione>
+		<path>car_ro_80</path>
+	</automobile>
+
+	<automobile>
+		<id>tech17</id>
+		<modello>365 GT4 2+2</modello>
+		<casa>FERRARI</casa>
+		<anno>1973</anno>
+		<descrizione>Ne furono prodotti 521 esemplari, oltre a tre prototipi. Disegnata da Pininfarina, la sua linea fu una pietra miliare per il design delle Ferrari.</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano II - "Goodbye Lenin"</posizione>
+		<path>car_365_gt4</path>
+	</automobile>
+
+	<automobile>
+		<id>tech18</id>
+		<modello>SOLARE</modello>
+		<casa>PHOENIX</casa>
+		<anno>1987</anno>
+		<descrizione>Vettura elettrosolare progettata e costruita nel 1987 dall’ingegnere Pesaresi (Osimo, AN). La vettura è dotata di due motori elettrici con potenza di circa 700 Watts ognuno, e di cinque batterie al piombo collegate in serie. Questa vettura ha partecipato a tutte le gare organizzate in Italia per veicoli elettrosolari dal 1988 al 1991.</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano II - "Destino"</posizione>
+		<path>car_solare</path>
+	</automobile>
+
+	<automobile>
+		<id>tech19</id>
+		<modello>STORERO A 25/35 HP</modello>
+		<casa>STORERO</casa>
+		<anno>1914</anno>
+		<descrizione>Il modello esposto presenta alcune peculiarità inconsuete, come il gruppo motore-frizione-cambio in blocco unico, il cambio con la terza in presa diretta e la quarta moltiplicata, i freni a pedale e a leva agenti sulle ruote posteriori.</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano I - "Autorino"</posizione>
+		<path>car_a_2535_hp</path>
+	</automobile>
+
+	<automobile>
+		<id>tech20</id>
+		<modello>FOD 18 HP</modello>
+		<casa>FOD</casa>
+		<anno>1926</anno>
+		<descrizione>E’ una vetturetta con soluzioni tecniche assolutamente innovative, cominciando dal telaio in lega di alluminio realizzato in un solo pezzo di fusione, con longheroni in acciaio.</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano I - "Autorino"</posizione>
+		<path>car_fod_18_hp</path>
+	</automobile>
+
+	<automobile>
+		<id>tech21</id>
+		<modello>LAMDA (TELAIO)</modello>
+		<casa>LANCIA</casa>
+		<anno>1924</anno>
+		<descrizione>Grazie al baule posteriore scatolato con funzione antitorsionale e al tunnel centrale entro il quale scorre l’albero di trasmissione la “Lambda” risultava molto più bassa delle altre automobili dell’epoca. Questa vettura contribuì all’evoluzione in senso moderno del veicolo a motore ed è tuttora considerata il capolavoro di Vincenzo Lancia.</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano I - "Sinfonia meccanica"</posizione>
+		<path>car_lamda</path>
+	</automobile>
+
+	<automobile>
+		<id>tech22</id>
+		<modello>ALFA 6C1500</modello>
+		<casa>ALFA ROMEO</casa>
+		<anno>1928</anno>
+		<descrizione>Delle versioni sportive solo 12 esemplari, di cui quello esposto è uno, vennero modificati con sovralimentazione per mezzo di compressore Roots. Una “6 C 1500” di questo tipo vinse, con Giuseppe Campari e Giulio Ramponi, la Mille Miglia del 1928.</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano I - "Sinfonia meccanica"</posizione>
+		<path>car_6c1500</path>
+	</automobile>
+
+	<automobile>
+		<id>tech23</id>
+		<modello>PRIMULA</modello>
+		<casa>AUTOBIANCHI</casa>
+		<anno>1967</anno>
+		<descrizione>E’ la prima vettura di progettazione italiana che adotta la trazione anteriore con motore trasversale. Vettura interessante per alcune soluzioni meccaniche d’avanguardia (fra l’altro il cambio in linea con l’albero motore e i freni a disco sulle 4 ruote).</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano I - "Metamorfosi"</posizione>
+		<path>car_primula</path>
+	</automobile>
+
+	<automobile>
+		<id>tech24</id>
+		<modello>AQUILA 25/35 HP</modello>
+		<casa>AQUILA ITALIANA</casa>
+		<anno>1912</anno>
+		<descrizione>Presenta numerose soluzioni tecniche d'avanguardia che riguardano il basamento motore in monoblocco, la copertura dei meccanismi di distribuzione, l'utilizzo di cuscinetti a sfera in sostituzione delle bronzine e, soprattutto, il comando d'avviamento mediante pedale frizione nell'abitacolo, al posto della scomoda manovella.</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano I - "Formula"</posizione>
+		<path>car_aquila_2535_hp</path>
+	</automobile>
+
+	<automobile>
+		<id>tech25</id>
+		<modello>DA COMPETIZIONE</modello>
+		<casa>MONACO TROSSI</casa>
+		<anno>1935</anno>
+		<descrizione>La sua particolarità più interessante è il motore a due tempi a 16 cilindri disposti a doppia stella, con una camera di scoppio unica ogni due cilindri, montato frontalmente e raffreddato ad aria, come sugli aerei. Altra singolarità, per l’epoca, è la trazione anteriore che evitava l’adozione di un lungo albero di trasmissione.</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano I - "Formula"</posizione>
+		<path>car_da_competizione</path>
+	</automobile>
+
+	<automobile>
+		<id>tech26</id>
+		<modello>ALFA 159</modello>
+		<casa>ALFA ROMEO</casa>
+		<anno>1951</anno>
+		<descrizione>Nel corso degli anni raggiunse la potenza di 283 CV/litro, che sarà superata soltanto molti anni più tardi da motori di Formula 1 dotati di turbocompressore.</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano II - "Il grande garage del futuro"</posizione>
+		<path>car_alfa_159</path>
+	</automobile>
+
+	<automobile>
+		<id>tech27</id>
+		<modello>156 F1</modello>
+		<casa>FERRARI</casa>
+		<anno>1963</anno>
+		<descrizione>Profonda mutazione della monoposto, col passaggio al motore posteriore. L’evoluzione ha comportato numerose varianti sulla base del motore a V (prima di 65° poi 120°); furono sperimentate teste cilindri con quattro valvole e una versione a corsa molto corta. Più interessante è stata l’adozione del sistema di iniezione Bosch con pompa meccanica ad alta pressione e con gli iniettori nei cilindri. Con questa vettura Phil Hill conquistò il titolo mondiale nel 1961 e John Surtees, nel 1963, vinse il G.P. di Germania e il G.P. del Mediterraneo.</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano I - "Formula"</posizione>
+		<path>car_156_f1</path>
+	</automobile>
+
+	<automobile>
+		<id>tech28</id>
+		<modello>ITALA 25/35 HP</modello>
+		<casa>ITALA</casa>
+		<anno>1912</anno>
+		<descrizione>Tromba a forma di serpente</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano I - "Design"</posizione>
+		<path>car_itala_2535_hp</path>
+	</automobile>
+
+	<automobile>
+		<id>tech29</id>
+		<modello>DISCO VOLANTE</modello>
+		<casa>ALFA ROMEO</casa>
+		<anno>1952</anno>
+		<descrizione>Vettura sportiva costruita in esemplare unico, con un’inedita carrozzeria assai caratteristica per il profilo biconvesso e la forma appiattita che ricorda l’ala di un aereo. In base a questo prototipo sperimentale, l’Alfa Romeo realizzò più tardi una decina di esemplari da competizione.</descrizione>
+		<categoria>Tecnologia e design</categoria>
+		<posizione>Piano T - "Morphing"</posizione>
+		<path>car_disco_volante</path>
+	</automobile>    
+</mauto>
